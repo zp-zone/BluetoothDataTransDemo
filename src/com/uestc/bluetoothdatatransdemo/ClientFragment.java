@@ -123,7 +123,7 @@ public class ClientFragment extends Fragment {
 							dialog.dismiss();
 							if (item >= 0 && item < blueDev.length) {
 								device = blueDev[item];
-								bt_start_client.setText("device: "
+								bt_start_client.setText("start device: "
 										+ blueDev[item].getName());
 								bt_start_client.setEnabled(true);
 							}
