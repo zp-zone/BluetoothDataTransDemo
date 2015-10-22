@@ -17,7 +17,7 @@ import android.util.Log;
  */
 public class MainActivity extends FragmentActivity implements ChooseFragment.Callbacks {
 	
-	public static final UUID MY_UUID = UUID.randomUUID();//UUID.fromString("fa87c0d0-afac-11de-8a39-0800200c9a66");
+	public static final UUID MY_UUID = UUID.fromString("fa87c0d0-afac-11de-8a39-0800200c9a66");
 	public static final String NAME = "BluetoothDemo";
 	public static final String TAG = "TestBluetoothDataTrans";
 	public static final int CLIENT = 0;
